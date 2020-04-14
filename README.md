@@ -45,3 +45,30 @@ Write a Python 3 program to do tasks 1-6. For each task, you should print out th
 6. Encrypt the following string using RSA: b’Hello World’. Use OEAP padding, the mask generation function MGF1, and the SHA256 hash function. Note that encryption may not produce deterministic results. You can verify your encryption algorithm by writing a decryption algorithm in the same way. For encryption, use the subject’s public key. For decryption, use the subject’s private key.
 
 For submission, your program should work with any files from the command line. You will receive as input, in order: the p12 file path, the CA (root) crt file path, the client (subject) crt file path, and the password. A sample of running the program with the given input files and a sample output is included at the end of this document. As mentioned above, encrypt may return a different value.
+
+
+ How to Run?
+------------
+
+Arguments to be passed to run the code:
+- FILE-NAME
+- P12-FILE-PATH
+- ROOT-CERTIFICATE-PATH
+- CLIENT-CERTIFICATE-PATH
+- PASSWORD
+
+Example:
+~~~
+python3 CertAuth.py /Users/atinsinghal97/Desktop/Project\ 5/Certificates/cert_bckup.p12 /Users/atinsinghal97/Desktop/Project\ 5/Certificates/root.crt /Users/atinsinghal97/Desktop/Project\ 5/Certificates/subject.crt CSE539_Rocks!
+~~~
+
+Requirements
+------------
+The program needs the following packages:
+	1. OpenSSL
+	2. cryptography
+
+'OpenSSL' & cryptography' can be installed by running the following commands in the Terminal:
+
+	pip install cryptography
+	pip install pyopenssl
