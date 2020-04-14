@@ -6,10 +6,6 @@ from cryptography.hazmat.primitives.asymmetric import rsa, padding
 from cryptography.hazmat.primitives import serialization, hashes
 from cryptography.hazmat.backends import default_backend
 
-#Code by Atin Singhal & Prerana Mahalanobis
-#Atin Singhal (ASU ID: 1217358454)
-#Prerana Mahalanobis (ASU ID: 1217126352)
-
 #InputArguments
 #p12FilePath="/Users/atinsinghal97/Desktop/Project 4/Certificates/cert_bckup.p12" #sys.argv[1]
 #rootCertificatePath="/Users/atinsinghal97/Desktop/Project 4/Certificates/root.crt" #sys.argv[2]
