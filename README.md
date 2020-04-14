@@ -15,7 +15,7 @@ Students will be able to:
 - A certificate is essential to circumvent a malicious party which happens to be on the route to a target server which acts as if it were the target. The client (your browser) uses the CA certificate to authenticate the CA signature on the server certificate as part of the authorizations before launching a secure connection. Usually, browsers include a set of trusted CA certificates. The quantity of internet browsers, other devices, and applications which trust certificate authority is referred to as ubiquity.
 
 
-**Directions **
+**Directions**
 
 For this assignment you have been provided 3 certificates in the certificate.zip file:
 
