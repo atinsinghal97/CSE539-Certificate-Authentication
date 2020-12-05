@@ -1,4 +1,4 @@
-# CSE539-Certificate-Authentication
+# Certificate-Authentication
 
 **Objectives -**
 Students will be able to:
@@ -59,7 +59,7 @@ Arguments to be passed to run the code:
 
 Example:
 ~~~
-python3 CertAuth.py /Users/atinsinghal97/Desktop/Project\ 5/Certificates/cert_bckup.p12 /Users/atinsinghal97/Desktop/Project\ 5/Certificates/root.crt /Users/atinsinghal97/Desktop/Project\ 5/Certificates/subject.crt CSE539_Rocks!
+python3 CertAuth.py /Users/Desktop/Project\ 5/Certificates/cert_bckup.p12 /Users/atinsinghal97/Desktop/Project\ 5/Certificates/root.crt /Users/Desktop/Project\ 5/Certificates/subject.crt CSE539_Rocks!
 ~~~
 
 Requirements
